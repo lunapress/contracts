@@ -1730,12 +1730,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lunapress/coding-standards.git",
-                "reference": "fd78026bbb869b562393b1c39b2f680230f2f741"
+                "reference": "ee1907b581322b8d6f87f47ae2c7fbd236434f0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lunapress/coding-standards/zipball/fd78026bbb869b562393b1c39b2f680230f2f741",
-                "reference": "fd78026bbb869b562393b1c39b2f680230f2f741",
+                "url": "https://api.github.com/repos/lunapress/coding-standards/zipball/ee1907b581322b8d6f87f47ae2c7fbd236434f0a",
+                "reference": "ee1907b581322b8d6f87f47ae2c7fbd236434f0a",
                 "shasum": ""
             },
             "require": {
@@ -1782,7 +1782,7 @@
                 "issues": "https://github.com/lunapress/coding-standards/issues",
                 "source": "https://github.com/lunapress/coding-standards/tree/main"
             },
-            "time": "2025-10-07T15:35:27+00:00"
+            "time": "2025-10-07T19:13:09+00:00"
         },
         {
             "name": "lunapress/static-analysis",
@@ -1790,12 +1790,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lunapress/static-analysis.git",
-                "reference": "1054337b5c5446917dceaa31d22fbd2857df9aa7"
+                "reference": "20d2c1b3af9581c6363b40ffe6fb79f1578b747f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lunapress/static-analysis/zipball/1054337b5c5446917dceaa31d22fbd2857df9aa7",
-                "reference": "1054337b5c5446917dceaa31d22fbd2857df9aa7",
+                "url": "https://api.github.com/repos/lunapress/static-analysis/zipball/20d2c1b3af9581c6363b40ffe6fb79f1578b747f",
+                "reference": "20d2c1b3af9581c6363b40ffe6fb79f1578b747f",
                 "shasum": ""
             },
             "require": {
@@ -1854,7 +1854,7 @@
                 "issues": "https://github.com/lunapress/static-analysis/issues",
                 "source": "https://github.com/lunapress/static-analysis/tree/main"
             },
-            "time": "2025-10-07T16:44:36+00:00"
+            "time": "2025-10-07T19:16:36+00:00"
         },
         {
             "name": "netresearch/jsonmapper",

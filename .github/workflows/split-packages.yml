@@ -48,6 +48,8 @@ jobs:
             split_repository: 'wp-transients-contracts'
           - local_path: 'wp-users'
             split_repository: 'wp-users-contracts'
+          - local_path: 'wp-assets'
+            split_repository: 'wp-assets-contracts'
 
     steps:
       - uses: actions/checkout@v2

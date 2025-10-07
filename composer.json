@@ -24,6 +24,7 @@
     "replace": {
         "lunapress/core-contracts": "self.version",
         "lunapress/frontend-contracts": "self.version",
+        "lunapress/wp-assets-contracts": "self.version",
         "lunapress/wp-core-contracts": "self.version",
         "lunapress/wp-filesystem-contracts": "self.version",
         "lunapress/wp-hooks-contracts": "self.version",
@@ -44,6 +45,7 @@
         "psr-4": {
             "Lunapress\\CoreContracts\\": "packages/core/src/",
             "Lunapress\\FrontendContracts\\": "packages/frontend/src/",
+            "Lunapress\\Wp\\AssetsContracts\\": "packages/wp-assets/src/",
             "Lunapress\\Wp\\CoreContracts\\": "packages/wp-core/src/",
             "Lunapress\\Wp\\FilesystemContracts\\": "packages/wp-filesystem/src/",
             "Lunapress\\Wp\\HooksContracts\\": "packages/wp-hooks/src/",
@@ -67,9 +69,7 @@
     "scripts": {
         "release": "monorepo-builder release",
         "merge": "monorepo-builder merge",
-
         "fix:phpcs": "lunapress-static-analysis phpcbf",
-
         "check:phpcs": "lunapress-static-analysis phpcs",
         "check:psalm": "lunapress-static-analysis psalm -- --no-cache",
         "check": [
