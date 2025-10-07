@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Lunapress\CoreContracts\Support\WpFunction;
+namespace LunaPress\CoreContracts\Support\WpFunction;
 
-use Lunapress\CoreContracts\Support\Factory;
+use LunaPress\CoreContracts\Support\Factory;
 
 defined('ABSPATH') || exit;
 

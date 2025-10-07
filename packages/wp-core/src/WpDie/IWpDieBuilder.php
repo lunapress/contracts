@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Lunapress\Wp\CoreContracts\WpDie;
+namespace LunaPress\Wp\CoreContracts\WpDie;
 
-use Lunapress\CoreContracts\Support\FunctionBuilder;
-use Lunapress\Wp\CoreContracts\WpError;
+use LunaPress\CoreContracts\Support\FunctionBuilder;
+use LunaPress\Wp\CoreContracts\WpError;
 
 defined('ABSPATH') || exit;
 

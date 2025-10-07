@@ -16,10 +16,11 @@
     ],
     "autoload": {
         "psr-4": {
-            "Lunapress\\Wp\\AssetsContracts\\": "src/"
+            "LunaPress\\Wp\\AssetsContracts\\": "src/"
         }
     },
     "require": {
-        "php": "^8.3"
+        "php": "^8.3",
+        "lunapress/core-contracts": "@dev"
     }
 }

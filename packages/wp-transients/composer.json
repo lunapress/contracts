@@ -16,7 +16,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Lunapress\\Wp\\TransientsContracts\\": "src/"
+            "LunaPress\\Wp\\TransientsContracts\\": "src/"
         }
     },
     "require": {

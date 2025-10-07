@@ -16,7 +16,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Lunapress\\Wp\\OptionsContracts\\": "src/"
+            "LunaPress\\Wp\\OptionsContracts\\": "src/"
         }
     },
     "require": {

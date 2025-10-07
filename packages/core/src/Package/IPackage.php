@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace Lunapress\CoreContracts\Package;
+namespace LunaPress\CoreContracts\Package;
 
-use Lunapress\CoreContracts\Plugin\IContext;
-use Lunapress\CoreContracts\Support\Bootable;
-use Lunapress\CoreContracts\Module\HasModules;
-use Lunapress\CoreContracts\Support\HasDi;
+use LunaPress\CoreContracts\Plugin\IContext;
+use LunaPress\CoreContracts\Support\Bootable;
+use LunaPress\CoreContracts\Module\HasModules;
+use LunaPress\CoreContracts\Support\HasDi;
 
 defined('ABSPATH') || exit;
 

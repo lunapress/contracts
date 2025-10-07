@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace Lunapress\CoreContracts\Plugin;
+namespace LunaPress\CoreContracts\Plugin;
 
-use Lunapress\CoreContracts\Support\Activatable;
-use Lunapress\CoreContracts\Support\Deactivatable;
-use Lunapress\CoreContracts\Support\Bootable;
-use Lunapress\CoreContracts\Support\HasDi;
-use Lunapress\CoreContracts\Module\MutableModules;
-use Lunapress\CoreContracts\Package\MutablePackages;
+use LunaPress\CoreContracts\Support\Activatable;
+use LunaPress\CoreContracts\Support\Deactivatable;
+use LunaPress\CoreContracts\Support\Bootable;
+use LunaPress\CoreContracts\Support\HasDi;
+use LunaPress\CoreContracts\Module\MutableModules;
+use LunaPress\CoreContracts\Package\MutablePackages;
 
 defined('ABSPATH') || exit;
 

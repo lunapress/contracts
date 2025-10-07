@@ -52,22 +52,22 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Lunapress\\CoreContracts\\": "packages/core/src/",
-            "Lunapress\\FrontendContracts\\": "packages/frontend/src/",
-            "Lunapress\\Wp\\AssetsContracts\\": "packages/wp-assets/src/",
-            "Lunapress\\Wp\\CoreContracts\\": "packages/wp-core/src/",
-            "Lunapress\\Wp\\FilesystemContracts\\": "packages/wp-filesystem/src/",
-            "Lunapress\\Wp\\HooksContracts\\": "packages/wp-hooks/src/",
-            "Lunapress\\Wp\\HttpContracts\\": "packages/wp-http/src/",
-            "Lunapress\\Wp\\I18nContracts\\": "packages/wp-i18n/src/",
-            "Lunapress\\Wp\\MediaContracts\\": "packages/wp-media/src/",
-            "Lunapress\\Wp\\MetaContracts\\": "packages/wp-meta/src/",
-            "Lunapress\\Wp\\OptionsContracts\\": "packages/wp-options/src/",
-            "Lunapress\\Wp\\PostsContracts\\": "packages/wp-posts/src/",
-            "Lunapress\\Wp\\QueryContracts\\": "packages/wp-query/src/",
-            "Lunapress\\Wp\\TermsContracts\\": "packages/wp-terms/src/",
-            "Lunapress\\Wp\\TransientsContracts\\": "packages/wp-transients/src/",
-            "Lunapress\\Wp\\UsersContracts\\": "packages/wp-users/src/"
+            "LunaPress\\CoreContracts\\": "packages/core/src/",
+            "LunaPress\\FrontendContracts\\": "packages/frontend/src/",
+            "LunaPress\\Wp\\AssetsContracts\\": "packages/wp-assets/src/",
+            "LunaPress\\Wp\\CoreContracts\\": "packages/wp-core/src/",
+            "LunaPress\\Wp\\FilesystemContracts\\": "packages/wp-filesystem/src/",
+            "LunaPress\\Wp\\HooksContracts\\": "packages/wp-hooks/src/",
+            "LunaPress\\Wp\\HttpContracts\\": "packages/wp-http/src/",
+            "LunaPress\\Wp\\I18nContracts\\": "packages/wp-i18n/src/",
+            "LunaPress\\Wp\\MediaContracts\\": "packages/wp-media/src/",
+            "LunaPress\\Wp\\MetaContracts\\": "packages/wp-meta/src/",
+            "LunaPress\\Wp\\OptionsContracts\\": "packages/wp-options/src/",
+            "LunaPress\\Wp\\PostsContracts\\": "packages/wp-posts/src/",
+            "LunaPress\\Wp\\QueryContracts\\": "packages/wp-query/src/",
+            "LunaPress\\Wp\\TermsContracts\\": "packages/wp-terms/src/",
+            "LunaPress\\Wp\\TransientsContracts\\": "packages/wp-transients/src/",
+            "LunaPress\\Wp\\UsersContracts\\": "packages/wp-users/src/"
         }
     },
     "config": {
