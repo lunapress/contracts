@@ -39,6 +39,15 @@
         "lunapress/wp-transients-contracts": "self.version",
         "lunapress/wp-users-contracts": "self.version"
     },
+    "repositories": [
+        {
+            "options": {
+                "symlink": true
+            },
+            "type": "path",
+            "url": "packages/*"
+        }
+    ],
     "minimum-stability": "dev",
     "prefer-stable": true,
     "autoload": {

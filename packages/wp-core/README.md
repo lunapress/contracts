@@ -21,3 +21,4 @@ Contracts and wrappers for fundamental WordPress core functions.
 - `wp_validate_boolean()`
 - `wp_timezone_string()`
 - `wp_timezone()`
+- `wp_kses()`
