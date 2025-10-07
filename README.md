@@ -1,2 +1,3 @@
-# lunapress-contracts
+# LunaPress Contracts
+
 Monorepo for all contracts
