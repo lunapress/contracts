@@ -23,14 +23,40 @@
     },
     "replace": {
         "lunapress/core-contracts": "self.version",
-        "lunapress/frontend-contracts": "self.version"
+        "lunapress/frontend-contracts": "self.version",
+        "lunapress/wp-core-contracts": "self.version",
+        "lunapress/wp-filesystem-contracts": "self.version",
+        "lunapress/wp-hooks-contracts": "self.version",
+        "lunapress/wp-http-contracts": "self.version",
+        "lunapress/wp-i18n-contracts": "self.version",
+        "lunapress/wp-media-contracts": "self.version",
+        "lunapress/wp-meta-contracts": "self.version",
+        "lunapress/wp-options-contracts": "self.version",
+        "lunapress/wp-posts-contracts": "self.version",
+        "lunapress/wp-query-contracts": "self.version",
+        "lunapress/wp-terms-contracts": "self.version",
+        "lunapress/wp-transients-contracts": "self.version",
+        "lunapress/wp-users-contracts": "self.version"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "Lunapress\\CoreContracts\\": "packages/core/src/",
-            "Lunapress\\FrontendContracts\\": "packages/frontend/src/"
+            "Lunapress\\FrontendContracts\\": "packages/frontend/src/",
+            "Lunapress\\Wp\\CoreContracts\\": "packages/wp-core/src/",
+            "Lunapress\\Wp\\FilesystemContracts\\": "packages/wp-filesystem/src/",
+            "Lunapress\\Wp\\HooksContracts\\": "packages/wp-hooks/src/",
+            "Lunapress\\Wp\\HttpContracts\\": "packages/wp-http/src/",
+            "Lunapress\\Wp\\I18nContracts\\": "packages/wp-i18n/src/",
+            "Lunapress\\Wp\\MediaContracts\\": "packages/wp-media/src/",
+            "Lunapress\\Wp\\MetaContracts\\": "packages/wp-meta/src/",
+            "Lunapress\\Wp\\OptionsContracts\\": "packages/wp-options/src/",
+            "Lunapress\\Wp\\PostsContracts\\": "packages/wp-posts/src/",
+            "Lunapress\\Wp\\QueryContracts\\": "packages/wp-query/src/",
+            "Lunapress\\Wp\\TermsContracts\\": "packages/wp-terms/src/",
+            "Lunapress\\Wp\\TransientsContracts\\": "packages/wp-transients/src/",
+            "Lunapress\\Wp\\UsersContracts\\": "packages/wp-users/src/"
         }
     },
     "config": {
@@ -39,6 +65,7 @@
         }
     },
     "scripts": {
-        "release": "vendor/bin/monorepo-builder release"
+        "release": "monorepo-builder release",
+        "merge": "monorepo-builder merge"
     }
 }

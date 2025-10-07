@@ -1,0 +1,1 @@
+# WP Core Wrapper

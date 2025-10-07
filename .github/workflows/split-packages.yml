@@ -22,6 +22,32 @@ jobs:
             split_repository: 'core-contracts'
           - local_path: 'frontend'
             split_repository: 'frontend-contracts'
+          - local_path: 'wp-core'
+            split_repository: 'wp-core-contracts'
+          - local_path: 'wp-filesystem'
+            split_repository: 'wp-filesystem-contracts'
+          - local_path: 'wp-hooks'
+            split_repository: 'wp-hooks-contracts'
+          - local_path: 'wp-http'
+            split_repository: 'wp-http-contracts'
+          - local_path: 'wp-i18n'
+            split_repository: 'wp-i18n-contracts'
+          - local_path: 'wp-media'
+            split_repository: 'wp-media-contracts'
+          - local_path: 'wp-meta'
+            split_repository: 'wp-meta-contracts'
+          - local_path: 'wp-options'
+            split_repository: 'wp-options-contracts'
+          - local_path: 'wp-posts'
+            split_repository: 'wp-posts-contracts'
+          - local_path: 'wp-query'
+            split_repository: 'wp-query-contracts'
+          - local_path: 'wp-terms'
+            split_repository: 'wp-terms-contracts'
+          - local_path: 'wp-transients'
+            split_repository: 'wp-transients-contracts'
+          - local_path: 'wp-users'
+            split_repository: 'wp-users-contracts'
 
     steps:
       - uses: actions/checkout@v2
@@ -44,3 +70,4 @@ jobs:
           repository_name: ${{ matrix.package.split_repository }}
           user_name: "github-actions[bot]"
           user_email: "github-actions[bot]@users.noreply.github.com"
+

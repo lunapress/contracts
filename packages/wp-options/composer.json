@@ -1,0 +1,26 @@
+{
+    "name": "lunapress/wp-options-contracts",
+    "description": "Contracts for lunapress/wp-options",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Onepix",
+            "homepage": "https://onepix.net",
+            "role": "Company"
+        },
+        {
+            "name": "0zd0",
+            "role": "Lead Developer",
+            "homepage": "https://github.com/0zd0"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lunapress\\Wp\\OptionsContracts\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.3"
+    }
+}
+
