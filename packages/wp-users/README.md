@@ -1,1 +1,1 @@
-# WP Users Wrapper
+# WP Users Wrapper Contracts

@@ -1,1 +1,1 @@
-# WP Posts Wrapper
+# WP Posts Wrapper Contracts

@@ -1,1 +1,1 @@
-# WP HTTP Wrapper
+# WP HTTP Wrapper Contracts

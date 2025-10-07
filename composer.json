@@ -66,6 +66,15 @@
     },
     "scripts": {
         "release": "monorepo-builder release",
-        "merge": "monorepo-builder merge"
+        "merge": "monorepo-builder merge",
+
+        "fix:phpcs": "lunapress-static-analysis phpcbf",
+
+        "check:phpcs": "lunapress-static-analysis phpcs",
+        "check:psalm": "lunapress-static-analysis psalm -- --no-cache",
+        "check": [
+            "@check:phpcs",
+            "@check:psalm"
+        ]
     }
 }

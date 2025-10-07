@@ -1,1 +1,1 @@
-# WP Core Wrapper
+# WP Core Wrapper Contracts

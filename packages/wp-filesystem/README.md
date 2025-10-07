@@ -1,1 +1,1 @@
-# WP Filesystem Wrapper
+# WP Filesystem Wrapper Contracts
