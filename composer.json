@@ -1,0 +1,44 @@
+{
+    "name": "lunapress/contracts",
+    "description": "Monorepo for all contracts",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Onepix",
+            "homepage": "https://onepix.net",
+            "role": "Company"
+        },
+        {
+            "name": "0zd0",
+            "role": "Lead Developer",
+            "homepage": "https://github.com/0zd0"
+        }
+    ],
+    "require": {
+        "php": "^8.3"
+    },
+    "require-dev": {
+        "lunapress/static-analysis": "@dev",
+        "symplify/monorepo-builder": "^12.2"
+    },
+    "replace": {
+        "lunapress/core-contracts": "self.version",
+        "lunapress/frontend-contracts": "self.version"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Lunapress\\CoreContracts\\": "packages/core/src/",
+            "Lunapress\\FrontendContracts\\": "packages/frontend/src/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+    "scripts": {
+        "release": "vendor/bin/monorepo-builder release"
+    }
+}
