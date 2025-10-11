@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace LunaPress\CoreContracts\Module;
+namespace LunaPress\FoundationContracts\Module;
 
-use LunaPress\CoreContracts\Hook\Subscriber;
+use LunaPress\FoundationContracts\Subscriber\Subscriber;
 
 defined('ABSPATH') || exit;
 

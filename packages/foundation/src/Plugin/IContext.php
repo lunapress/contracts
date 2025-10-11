@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace LunaPress\CoreContracts\Plugin;
+namespace LunaPress\FoundationContracts\Plugin;
 
 defined('ABSPATH') || exit;
 

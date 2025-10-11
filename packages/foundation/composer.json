@@ -1,6 +1,6 @@
 {
-    "name": "lunapress/core-contracts",
-    "description": "Contracts for lunapress/core",
+    "name": "lunapress/foundation-contracts",
+    "description": "Contracts for lunapress/foundation",
     "type": "library",
     "authors": [
         {
@@ -16,11 +16,10 @@
     ],
     "autoload": {
         "psr-4": {
-            "LunaPress\\CoreContracts\\": "src/"
+            "LunaPress\\FoundationContracts\\": "src/"
         }
     },
     "require": {
-        "php": "^8.3",
-        "lunapress/foundation-contracts": "@dev"
+        "php": "^8.3"
     }
 }

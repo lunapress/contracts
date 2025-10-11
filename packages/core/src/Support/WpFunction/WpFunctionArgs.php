@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace LunaPress\CoreContracts\Support\WpFunction;
 
-use LunaPress\CoreContracts\Support\Arrayable;
+use LunaPress\FoundationContracts\Support\Arrayable;
 
 defined('ABSPATH') || exit;
 

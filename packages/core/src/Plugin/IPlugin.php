@@ -3,12 +3,12 @@ declare(strict_types=1);
 
 namespace LunaPress\CoreContracts\Plugin;
 
-use LunaPress\CoreContracts\Support\Activatable;
-use LunaPress\CoreContracts\Support\Deactivatable;
-use LunaPress\CoreContracts\Support\Bootable;
-use LunaPress\CoreContracts\Support\HasDi;
-use LunaPress\CoreContracts\Module\MutableModules;
-use LunaPress\CoreContracts\Package\MutablePackages;
+use LunaPress\FoundationContracts\Support\Activatable;
+use LunaPress\FoundationContracts\Support\Deactivatable;
+use LunaPress\FoundationContracts\Support\Bootable;
+use LunaPress\FoundationContracts\Support\HasDi;
+use LunaPress\FoundationContracts\Module\MutableModules;
+use LunaPress\FoundationContracts\Package\MutablePackages;
 
 defined('ABSPATH') || exit;
 
