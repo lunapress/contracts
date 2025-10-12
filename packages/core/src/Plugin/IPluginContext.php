@@ -7,6 +7,6 @@ use LunaPress\FoundationContracts\Plugin\IContext;
 
 defined('ABSPATH') || exit;
 
-interface IWordPressContext extends IContext
+interface IPluginContext extends IContext
 {
 }

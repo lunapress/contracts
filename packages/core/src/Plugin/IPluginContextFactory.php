@@ -5,7 +5,7 @@ namespace LunaPress\CoreContracts\Plugin;
 
 defined('ABSPATH') || exit;
 
-interface IContextFactory
+interface IPluginContextFactory
 {
-    public function make(IPlugin $plugin): IWordPressContext;
+    public function make(IPlugin $plugin): IPluginContext;
 }
