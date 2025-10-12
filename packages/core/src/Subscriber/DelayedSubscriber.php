@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace LunaPress\CoreContracts\Hook;
+namespace LunaPress\CoreContracts\Subscriber;
 
 use LunaPress\FoundationContracts\Subscriber\Subscriber;
 
