@@ -15,7 +15,6 @@ defined('ABSPATH') || exit;
 
 interface IPlugin extends Activatable, Deactivatable, Bootable, HasDi, HasModules, HasPackages
 {
-    public function getComposerAutoLoaders(): array;
     public function setContainerBuilder(IContainerBuilder $builder): self;
     public function getPrefix(): string;
 }

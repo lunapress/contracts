@@ -8,9 +8,8 @@ defined('ABSPATH') || exit;
 interface IPackageMetaFactory
 {
     /**
-     * @param array<class-string> $autoLoaders
      * @return iterable<PackageMeta>
      */
-    public function createAll(array $autoLoaders = []): iterable;
+    public function createAll(): iterable;
     public function create(string $packageName): ?PackageMeta;
 }
