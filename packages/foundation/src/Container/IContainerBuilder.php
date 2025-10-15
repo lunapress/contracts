@@ -11,4 +11,7 @@ interface IContainerBuilder
 {
     public function addDefinitions(string|array $definitions): void;
     public function build(): ContainerInterface;
+    public function enableCache(string $path): void;
+    public function disableCache(): void;
+    public function isCacheEnabled(): bool;
 }
