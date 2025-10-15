@@ -8,13 +8,14 @@ use LunaPress\FoundationContracts\Module\HasModules;
 use LunaPress\FoundationContracts\Package\HasPackages;
 use LunaPress\FoundationContracts\Support\Activatable;
 use LunaPress\FoundationContracts\Support\Deactivatable;
-use LunaPress\FoundationContracts\Support\Bootable;
 use LunaPress\FoundationContracts\Support\HasDi;
 
 defined('ABSPATH') || exit;
 
-interface IPlugin extends Activatable, Deactivatable, Bootable, HasDi, HasModules, HasPackages
+interface IPlugin extends Activatable, Deactivatable, HasDi, HasModules, HasPackages
 {
+    public function boot(string $callerFile): void;
     public function setContainerBuilder(IContainerBuilder $builder): self;
     public function getPrefix(): string;
+    public function getCallerFile(): string;
 }
