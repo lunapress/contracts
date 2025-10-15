@@ -1,10 +1,13 @@
 # LunaPress Foundation Contracts
 
-The **Foundation Contracts** package defines the *shared ecosystem interfaces* used across all LunaPress packages.  
-It describes the abstract building blocks of the platform — packages, service packages, modules, subscribers, and DI adapters —  
-without depending on any runtime or WordPress-specific code.
+The **Foundation Contracts** package defines the *shared architectural interfaces*
+used across all LunaPress packages and plugins.
+
+It models the common building blocks of a WordPress-based plugin ecosystem —
+packages, modules, services, and subscribers —
+without directly calling or relying on WordPress runtime functions.
 
 ### Purpose
-- Acts as the **shared API layer** for all LunaPress packages.
-- Defines contracts for the ecosystem layer (not for the WordPress core).
-- Enables packages to be fully independent from the WordPress runtime (`core`).
+- Acts as the **shared API layer** for all LunaPress packages and plugins.
+- Defines a **consistent architectural language** (modules, packages, services, subscribers).
+- Enables packages to interoperate within the LunaPress ecosystem without coupling to a specific plugin.
