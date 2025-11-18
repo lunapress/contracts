@@ -7,5 +7,6 @@ defined('ABSPATH') || exit;
 
 interface IAssetDependency
 {
+    public function handle(string $handle): self;
     public function getHandle(): string;
 }
