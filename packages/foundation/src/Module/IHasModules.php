@@ -5,7 +5,7 @@ namespace LunaPress\FoundationContracts\Module;
 
 defined('ABSPATH') || exit;
 
-interface HasModules
+interface IHasModules
 {
     /**
      * @return IModule[]|class-string<IModule>[]

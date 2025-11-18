@@ -5,7 +5,7 @@ namespace LunaPress\FoundationContracts\Support;
 
 defined('ABSPATH') || exit;
 
-interface Deactivatable
+interface IArrayable
 {
-    public function deactivate(): void;
+    public function toArray(): array;
 }

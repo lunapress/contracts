@@ -4,11 +4,11 @@ declare(strict_types=1);
 namespace LunaPress\Wp\AssetsContracts\WpEnqueueScriptModule;
 
 use LunaPress\Wp\AssetsContracts\WpEnqueueScriptModule\Enum\WpEnqueueScriptModuleImport;
-use LunaPress\CoreContracts\Support\WpFunction\WpFunctionArgs;
+use LunaPress\CoreContracts\Support\WpFunction\IWpFunctionArgs;
 
 defined('ABSPATH') || exit;
 
-interface IWpEnqueueScriptModuleDeps extends WpFunctionArgs
+interface IWpEnqueueScriptModuleDeps extends IWpFunctionArgs
 {
     public function id(string $id): self;
 

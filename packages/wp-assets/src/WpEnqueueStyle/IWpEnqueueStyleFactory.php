@@ -3,11 +3,11 @@ declare(strict_types=1);
 
 namespace LunaPress\Wp\AssetsContracts\WpEnqueueStyle;
 
-use LunaPress\CoreContracts\Support\Factory;
+use LunaPress\CoreContracts\Support\IFactory;
 
 defined('ABSPATH') || exit;
 
-interface IWpEnqueueStyleFactory extends Factory
+interface IWpEnqueueStyleFactory extends IFactory
 {
     public function make(string $handle): IWpEnqueueStyleFunction;
 }

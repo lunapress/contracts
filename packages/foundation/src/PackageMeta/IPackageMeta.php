@@ -5,7 +5,7 @@ namespace LunaPress\FoundationContracts\PackageMeta;
 
 defined('ABSPATH') || exit;
 
-interface PackageMeta
+interface IPackageMeta
 {
     public function getName(): string;
     public function getType(): PackageType;

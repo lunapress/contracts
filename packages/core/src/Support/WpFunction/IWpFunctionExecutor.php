@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace LunaPress\CoreContracts\Support\WpFunction;
 
-use LunaPress\CoreContracts\Support\ExecutableFunction;
+use LunaPress\CoreContracts\Support\IExecutableFunction;
 
 defined('ABSPATH') || exit;
 
@@ -13,8 +13,8 @@ defined('ABSPATH') || exit;
 interface IWpFunctionExecutor
 {
     /**
-     * @param ExecutableFunction<TResult> $function
+     * @param IExecutableFunction<TResult> $function
      * @return TResult
      */
-    public function execute(ExecutableFunction $function): mixed;
+    public function execute(IExecutableFunction $function): mixed;
 }

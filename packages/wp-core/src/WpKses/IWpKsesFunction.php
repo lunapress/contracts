@@ -3,11 +3,11 @@ declare(strict_types=1);
 
 namespace LunaPress\Wp\CoreContracts\WpKses;
 
-use LunaPress\CoreContracts\Support\ExecutableFunction;
+use LunaPress\CoreContracts\Support\IExecutableFunction;
 
 defined('ABSPATH') || exit;
 
-interface IWpKsesFunction extends ExecutableFunction
+interface IWpKsesFunction extends IExecutableFunction
 {
     public function content(string $content): self;
 

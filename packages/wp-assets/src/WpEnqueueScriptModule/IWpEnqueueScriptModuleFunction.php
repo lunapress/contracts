@@ -3,11 +3,11 @@ declare(strict_types=1);
 
 namespace LunaPress\Wp\AssetsContracts\WpEnqueueScriptModule;
 
-use LunaPress\CoreContracts\Support\ExecutableFunction;
+use LunaPress\CoreContracts\Support\IExecutableFunction;
 
 defined('ABSPATH') || exit;
 
-interface IWpEnqueueScriptModuleFunction extends ExecutableFunction
+interface IWpEnqueueScriptModuleFunction extends IExecutableFunction
 {
     public function id(string $id): self;
 

@@ -5,7 +5,7 @@ namespace LunaPress\CoreContracts\Support;
 
 defined('ABSPATH') || exit;
 
-interface ExecutableFunction
+interface IExecutableFunction
 {
     public function rawArgs(): array;
 

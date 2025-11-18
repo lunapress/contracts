@@ -5,7 +5,7 @@ namespace LunaPress\FoundationContracts\Support;
 
 defined('ABSPATH') || exit;
 
-interface HasDi
+interface IBootable
 {
-    public static function getDiPath(): ?string;
+    public function boot(): void;
 }

@@ -5,7 +5,7 @@ namespace LunaPress\FoundationContracts\Support;
 
 defined('ABSPATH') || exit;
 
-interface Activatable
+interface IActivatable
 {
     public function activate(): void;
 }

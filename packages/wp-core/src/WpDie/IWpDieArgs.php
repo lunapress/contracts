@@ -3,11 +3,11 @@ declare(strict_types=1);
 
 namespace LunaPress\Wp\CoreContracts\WpDie;
 
-use LunaPress\CoreContracts\Support\WpFunction\WpFunctionArgs;
+use LunaPress\CoreContracts\Support\WpFunction\IWpFunctionArgs;
 
 defined('ABSPATH') || exit;
 
-interface IWpDieArgs extends WpFunctionArgs
+interface IWpDieArgs extends IWpFunctionArgs
 {
     public function response(?int $response): self;
 

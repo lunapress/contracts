@@ -5,7 +5,7 @@ namespace LunaPress\FoundationContracts\Support;
 
 defined('ABSPATH') || exit;
 
-interface Bootable
+interface IDeactivatable
 {
-    public function boot(): void;
+    public function deactivate(): void;
 }

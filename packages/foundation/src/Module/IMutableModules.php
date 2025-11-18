@@ -5,7 +5,7 @@ namespace LunaPress\FoundationContracts\Module;
 
 defined('ABSPATH') || exit;
 
-interface MutableModules extends HasModules
+interface IMutableModules extends IHasModules
 {
     /**
      * @param IModule|class-string<IModule> $module

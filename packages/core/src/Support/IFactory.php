@@ -5,6 +5,6 @@ namespace LunaPress\CoreContracts\Support;
 
 defined('ABSPATH') || exit;
 
-interface Factory
+interface IFactory
 {
 }

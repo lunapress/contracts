@@ -5,7 +5,7 @@ namespace LunaPress\FoundationContracts\Package;
 
 defined('ABSPATH') || exit;
 
-interface MutablePackages extends HasPackages
+interface IMutablePackages extends IHasPackages
 {
     /**
      * @param IPackage|class-string<IPackage> $package

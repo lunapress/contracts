@@ -3,11 +3,11 @@ declare(strict_types=1);
 
 namespace LunaPress\CoreContracts\Support\WpFunction;
 
-use LunaPress\CoreContracts\Support\Factory;
+use LunaPress\CoreContracts\Support\IFactory;
 
 defined('ABSPATH') || exit;
 
-interface IWpFunctionArgsFactory extends Factory
+interface IWpFunctionArgsFactory extends IFactory
 {
-    public function make(): WpFunctionArgs;
+    public function make(): IWpFunctionArgs;
 }

@@ -8,8 +8,8 @@ defined('ABSPATH') || exit;
 interface IPackageMetaFactory
 {
     /**
-     * @return iterable<PackageMeta>
+     * @return iterable<IPackageMeta>
      */
     public function createAll(): iterable;
-    public function create(string $packageName): ?PackageMeta;
+    public function create(string $packageName): ?IPackageMeta;
 }

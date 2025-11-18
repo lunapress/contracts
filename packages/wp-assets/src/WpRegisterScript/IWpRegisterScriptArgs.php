@@ -3,11 +3,11 @@ declare(strict_types=1);
 
 namespace LunaPress\Wp\AssetsContracts\WpRegisterScript;
 
-use LunaPress\CoreContracts\Support\WpFunction\WpFunctionArgs;
+use LunaPress\CoreContracts\Support\WpFunction\IWpFunctionArgs;
 
 defined('ABSPATH') || exit;
 
-interface IWpRegisterScriptArgs extends WpFunctionArgs
+interface IWpRegisterScriptArgs extends IWpFunctionArgs
 {
     public function strategy(?string $strategy): self;
 

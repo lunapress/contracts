@@ -3,10 +3,10 @@ declare(strict_types=1);
 
 namespace LunaPress\CoreContracts\Support\WpFunction;
 
-use LunaPress\FoundationContracts\Support\Arrayable;
+use LunaPress\FoundationContracts\Support\IArrayable;
 
 defined('ABSPATH') || exit;
 
-interface WpFunctionArgs extends Arrayable
+interface IWpFunctionArgs extends IArrayable
 {
 }

@@ -4,15 +4,15 @@ declare(strict_types=1);
 namespace LunaPress\CoreContracts\Plugin;
 
 use LunaPress\FoundationContracts\Container\IContainerBuilder;
-use LunaPress\FoundationContracts\Module\HasModules;
-use LunaPress\FoundationContracts\Package\HasPackages;
-use LunaPress\FoundationContracts\Support\Activatable;
-use LunaPress\FoundationContracts\Support\Deactivatable;
-use LunaPress\FoundationContracts\Support\HasDi;
+use LunaPress\FoundationContracts\Module\IHasModules;
+use LunaPress\FoundationContracts\Package\IHasPackages;
+use LunaPress\FoundationContracts\Support\IActivatable;
+use LunaPress\FoundationContracts\Support\IDeactivatable;
+use LunaPress\FoundationContracts\Support\IHasDi;
 
 defined('ABSPATH') || exit;
 
-interface IPlugin extends Activatable, Deactivatable, HasDi, HasModules, HasPackages
+interface IPlugin extends IActivatable, IDeactivatable, IHasDi, IHasModules, IHasPackages
 {
     public function boot(string $callerFile): void;
     public function setContainerBuilder(IContainerBuilder $builder): self;

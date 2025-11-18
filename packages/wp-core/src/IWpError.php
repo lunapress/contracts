@@ -5,7 +5,7 @@ namespace LunaPress\Wp\CoreContracts;
 
 defined('ABSPATH') || exit;
 
-interface WpError
+interface IWpError
 {
     public function getErrorCode(): string;
 

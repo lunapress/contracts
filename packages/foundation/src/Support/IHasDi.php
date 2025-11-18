@@ -5,7 +5,7 @@ namespace LunaPress\FoundationContracts\Support;
 
 defined('ABSPATH') || exit;
 
-interface Arrayable
+interface IHasDi
 {
-    public function toArray(): array;
+    public static function getDiPath(): ?string;
 }

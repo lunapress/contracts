@@ -3,12 +3,12 @@ declare(strict_types=1);
 
 namespace LunaPress\Wp\AssetsContracts\WpRegisterScript;
 
-use LunaPress\CoreContracts\Support\ExecutableFunction;
+use LunaPress\CoreContracts\Support\IExecutableFunction;
 use LunaPress\Wp\AssetsContracts\IAssetDependency;
 
 defined('ABSPATH') || exit;
 
-interface IWpRegisterScriptFunction extends ExecutableFunction
+interface IWpRegisterScriptFunction extends IExecutableFunction
 {
     public function handle(string $handle): self;
 
