@@ -5,7 +5,7 @@ namespace LunaPress\FrontendContracts\Vite;
 
 defined('ABSPATH') || exit;
 
-interface IViteEntry extends ViteEntryPoint
+interface IViteEntry extends IViteEntryPoint
 {
     public function getFile(): string;
     public function isEntry(): bool;

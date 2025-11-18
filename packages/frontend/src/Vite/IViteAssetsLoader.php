@@ -11,7 +11,7 @@ defined('ABSPATH') || exit;
 interface IViteAssetsLoader
 {
     /**
-     * @param ViteEntryPoint[] $entryPoints
+     * @param IViteEntryPoint[] $entryPoints
      * @param bool $isAdmin
      * @param array<IWpEnqueueScriptModuleDep|IAssetDependency> $dependencies
      * @return void

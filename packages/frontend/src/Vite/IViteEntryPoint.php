@@ -5,7 +5,7 @@ namespace LunaPress\FrontendContracts\Vite;
 
 defined('ABSPATH') || exit;
 
-interface ViteEntryPoint
+interface IViteEntryPoint
 {
     public function getName(): string;
 }
