@@ -13,4 +13,4 @@ Contracts and wrappers for WordPress Internationalization API.
 -  [x] `translate()` = `Translate`
 -  [ ] `translate_nooped_plural()`
 -  [ ] `load_textdomain()`
--  [ ] `load_plugin_textdomain()`
+-  [ ] `load_plugin_textdomain()` = `LoadPluginTextDomain`

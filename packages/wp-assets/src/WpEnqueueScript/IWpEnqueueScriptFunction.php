@@ -11,24 +11,24 @@ defined('ABSPATH') || exit;
 interface IWpEnqueueScriptFunction extends IExecutableFunction
 {
     public function getHandle(): string;
-    public function getSrc(): string|null;
+    public function getSrc(): string;
     /**
-     * @return IAssetDependency[]|null
+     * @return IAssetDependency[]
      */
-    public function getDeps(): array|null;
-    public function getVersion(): string|bool|null;
+    public function getDeps(): array;
+    public function getVersion(): string|bool;
     /**
-     * @return IWpEnqueueScriptArgs|bool|null
+     * @return IWpEnqueueScriptArgs|bool
      */
-    public function getArgs(): IWpEnqueueScriptArgs|bool|null;
+    public function getArgs(): IWpEnqueueScriptArgs|bool;
 
     public function handle(string $handle): self;
-    public function src(string|null $src): self;
+    public function src(string $src): self;
     /**
-     * @param IAssetDependency[]|null $deps
+     * @param IAssetDependency[] $deps
      * @return self
      */
-    public function deps(array|null $deps): self;
-    public function version(string|bool|null $version): self;
-    public function args(IWpEnqueueScriptArgs|bool|null $args): self;
+    public function deps(array $deps): self;
+    public function version(string|bool $version): self;
+    public function args(IWpEnqueueScriptArgs|bool $args): self;
 }
