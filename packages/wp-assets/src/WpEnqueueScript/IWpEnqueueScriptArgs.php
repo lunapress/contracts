@@ -12,6 +12,7 @@ interface IWpEnqueueScriptArgs extends IWpFunctionArgs
 {
     public function strategy(WpEnqueueScriptStrategy $strategy): self;
     public function inFooter(bool $inFooter): self;
+
     public function getStrategy(): WpEnqueueScriptStrategy;
     public function getInFooter(): bool;
 }
