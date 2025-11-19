@@ -3,11 +3,11 @@ declare(strict_types=1);
 
 namespace LunaPress\Wp\I18nContracts\Translate;
 
-use LunaPress\Wp\I18nContracts\Support\ITranslationFactory;
+use LunaPress\CoreContracts\Support\IFactory;
 
 defined('ABSPATH') || exit;
 
-interface ITranslateFactory extends ITranslationFactory
+interface ITranslateFactory extends IFactory
 {
     public function make(string $text): ITranslateFunction;
 }

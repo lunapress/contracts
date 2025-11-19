@@ -3,11 +3,11 @@ declare(strict_types=1);
 
 namespace LunaPress\Wp\I18nContracts\RenderTranslate;
 
-use LunaPress\Wp\I18nContracts\Support\ITranslationFactory;
+use LunaPress\CoreContracts\Support\IFactory;
 
 defined('ABSPATH') || exit;
 
-interface IRenderTranslateFactory extends ITranslationFactory
+interface IRenderTranslateFactory extends IFactory
 {
     public function make(string $text): IRenderTranslateFunction;
 }

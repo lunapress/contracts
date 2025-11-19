@@ -7,7 +7,7 @@ Contracts and wrappers for WordPress Internationalization API.
 
 -  [x] `__()` = `Translate`
 -  [x] `_e()` = `RenderTranslate`
--  [ ] `_x()`
+-  [ ] `_x()` = `ContextTranslate`
 -  [ ] `_n()`
 -  [ ] `_nx()`
 -  [x] `translate()` = `Translate`
