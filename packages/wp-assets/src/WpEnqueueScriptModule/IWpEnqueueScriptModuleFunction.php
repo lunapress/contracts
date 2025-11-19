@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace LunaPress\Wp\AssetsContracts\WpEnqueueScriptModule;
 
-use LunaPress\CoreContracts\Support\IExecutableFunction;
+use LunaPress\FoundationContracts\Support\IExecutableFunction;
 
 defined('ABSPATH') || exit;
 

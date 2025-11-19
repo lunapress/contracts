@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace LunaPress\Wp\CoreContracts\WpKses;
 
-use LunaPress\CoreContracts\Support\IFactory;
+use LunaPress\FoundationContracts\Support\IFactory;
 
 defined('ABSPATH') || exit;
 

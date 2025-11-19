@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace LunaPress\Wp\AssetsContracts\WpRegisterScript;
 
-use LunaPress\CoreContracts\Support\WpFunction\IWpFunctionArgs;
+use LunaPress\FoundationContracts\Support\WpFunction\IWpFunctionArgs;
 
 defined('ABSPATH') || exit;
 
