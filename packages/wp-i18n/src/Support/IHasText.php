@@ -7,6 +7,6 @@ defined('ABSPATH') || exit;
 
 interface IHasText
 {
-    public function text(string $text): self;
+    public function text(string $text): static;
     public function getText(): string;
 }

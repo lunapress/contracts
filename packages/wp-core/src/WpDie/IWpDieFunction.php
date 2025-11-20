@@ -5,6 +5,7 @@ namespace LunaPress\Wp\CoreContracts\WpDie;
 
 use LunaPress\Wp\CoreContracts\IWpError;
 use LunaPress\FoundationContracts\Support\IExecutableFunction;
+use LunaPress\FoundationContracts\Support\WpFunction\WpArray;
 
 defined('ABSPATH') || exit;
 
@@ -12,7 +13,11 @@ interface IWpDieFunction extends IExecutableFunction
 {
     public function message(string|IWpError $message): self;
     public function title(string|int $title): self;
-    public function args(IWpDieArgs|int $args): self;
+    public function args(IWpDieArgs|WpArray $args): self;
+
+    public function getMessage(): string|IWpError;
+    public function getTitle(): string|int;
+    public function getArgs(): IWpDieArgs|WpArray;
 
     public function executeWithArgs(array $args): never;
 }

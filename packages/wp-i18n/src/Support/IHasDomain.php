@@ -7,6 +7,6 @@ defined('ABSPATH') || exit;
 
 interface IHasDomain
 {
-    public function domain(string $domain): self;
+    public function domain(string $domain): static;
     public function getDomain(): string;
 }

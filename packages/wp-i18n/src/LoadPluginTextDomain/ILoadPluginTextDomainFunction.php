@@ -9,8 +9,8 @@ defined('ABSPATH') || exit;
 
 interface ILoadPluginTextDomainFunction extends IExecutableFunction
 {
-    public function domain(string $domain): self;
-    public function pluginRelPath(string|false $pluginRelPath): self;
+    public function domain(string $domain): static;
+    public function pluginRelPath(string|false $pluginRelPath): static;
 
     public function getDomain(): string;
     public function getPluginRelPath(): string|false;

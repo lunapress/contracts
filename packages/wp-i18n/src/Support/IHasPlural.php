@@ -7,9 +7,9 @@ defined('ABSPATH') || exit;
 
 interface IHasPlural
 {
-    public function single(string $single): self;
-    public function plural(string $plural): self;
-    public function number(int $number): self;
+    public function single(string $single): static;
+    public function plural(string $plural): static;
+    public function number(int $number): static;
 
     public function getSingle(): string;
     public function getPlural(): string;

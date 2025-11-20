@@ -5,13 +5,13 @@ Contracts and wrappers for WordPress Internationalization API.
 
 ## Supported Functions
 
-- [x] `__()` = `Translate`
-- [x] `_e()` = `RenderTranslate`
-- [x] `_x()` = `ContextTranslate`
-- [x] `_n()` = `PluralTranslate`
-- [x] `_nx()` = `ContextPluralTranslate`
-- [x] `translate()` = `Translate`
-- [ ] `translate_nooped_plural()`
-- [ ] `load_textdomain()`
-- [x] `load_plugin_textdomain()` = `LoadPluginTextDomain`
-- [x] `load_script_textdomain` = `LoadScriptTextDomain`
+- `__()`
+- `_e()`
+- `_x()`
+- `_n()`
+- `_nx()`
+- `translate()`
+- `translate_nooped_plural()`
+- `load_textdomain()`
+- `load_plugin_textdomain()`
+- `load_script_textdomain`

@@ -7,6 +7,6 @@ defined('ABSPATH') || exit;
 
 interface IHasContext
 {
-    public function context(string $context): self;
+    public function context(string $context): static;
     public function getContext(): string;
 }
