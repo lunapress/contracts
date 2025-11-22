@@ -3,8 +3,8 @@ declare(strict_types=1);
 
 namespace LunaPress\FrontendContracts\Vite;
 
-use LunaPress\Wp\AssetsContracts\IAssetDependency;
-use LunaPress\Wp\AssetsContracts\WpEnqueueScriptModule\IWpEnqueueScriptModuleDep;
+use LunaPress\Wp\AssetsContracts\Entity\IAssetDependency;
+use LunaPress\Wp\AssetsContracts\Function\WpEnqueueScriptModule\IWpEnqueueScriptModuleDep;
 
 defined('ABSPATH') || exit;
 
