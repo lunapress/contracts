@@ -5,7 +5,7 @@ namespace LunaPress\Wp\I18nContracts\Capability;
 
 defined('ABSPATH') || exit;
 
-interface IHasDomain extends IDomain
+interface IHasOptionalDomain extends IOptionalDomain
 {
-    public function domain(string $domain): static;
+    public function domain(?string $domain): static;
 }

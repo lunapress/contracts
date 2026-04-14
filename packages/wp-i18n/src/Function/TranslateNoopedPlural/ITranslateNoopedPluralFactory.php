@@ -10,5 +10,5 @@ defined('ABSPATH') || exit;
 
 interface ITranslateNoopedPluralFactory extends IFactory
 {
-    public function make(INoopedPlural $noopedPlural, int $number): ITranslateNoopedPluralFunction;
+    public function make(INoopedPlural $noopedPlural, int $count): ITranslateNoopedPluralFunction;
 }
