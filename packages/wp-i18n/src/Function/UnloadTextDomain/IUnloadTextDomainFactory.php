@@ -9,5 +9,5 @@ defined('ABSPATH') || exit;
 
 interface IUnloadTextDomainFactory extends IFactory
 {
-    public function make(string $domain, bool $reloadable = false): IUnloadTextDomainFunction;
+    public function make(string $domain): IUnloadTextDomainFunction;
 }
