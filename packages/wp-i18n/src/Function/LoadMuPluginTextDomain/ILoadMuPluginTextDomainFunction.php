@@ -3,17 +3,13 @@ declare(strict_types=1);
 
 namespace LunaPress\Wp\I18nContracts\Function\LoadMuPluginTextDomain;
 
-use LunaPress\FoundationContracts\Support\IExecutableFunction;
+use LunaPress\Wp\I18nContracts\Entity\ITranslatorFunction;
 
 defined('ABSPATH') || exit;
 
-interface ILoadMuPluginTextDomainFunction extends IExecutableFunction
+interface ILoadMuPluginTextDomainFunction extends ITranslatorFunction
 {
-    public function domain(string $domain): static;
-
     public function muPluginRelPath(string $muPluginRelPath): static;
-
-    public function getDomain(): string;
 
     public function getMuPluginRelPath(): string;
 }
