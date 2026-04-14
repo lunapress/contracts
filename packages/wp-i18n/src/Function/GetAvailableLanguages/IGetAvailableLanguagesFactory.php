@@ -9,5 +9,5 @@ defined('ABSPATH') || exit;
 
 interface IGetAvailableLanguagesFactory extends IFactory
 {
-    public function make(?string $dir = null): IGetAvailableLanguagesFunction;
+    public function make(): IGetAvailableLanguagesFunction;
 }

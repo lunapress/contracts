@@ -9,5 +9,5 @@ defined('ABSPATH') || exit;
 
 interface IGetUserLocaleFactory extends IFactory
 {
-    public function make(int $userId = 0): IGetUserLocaleFunction;
+    public function make(): IGetUserLocaleFunction;
 }
