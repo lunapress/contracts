@@ -5,14 +5,11 @@ declare(strict_types=1);
 namespace LunaPress\Wp\I18nContracts\Service\Translator;
 
 use LunaPress\Wp\I18nContracts\Entity\INoopedPlural;
-use LunaPress\Wp\I18nContracts\Entity\ITranslatorFunction;
 
 
 
 interface ITranslator
 {
-    public function run(ITranslatorFunction $function);
-
     public function translate(string $text): string;
 
     public function render(string $text): void;

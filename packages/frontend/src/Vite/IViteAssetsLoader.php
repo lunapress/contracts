@@ -5,8 +5,7 @@ declare(strict_types=1);
 namespace LunaPress\FrontendContracts\Vite;
 
 use LunaPress\Wp\AssetsContracts\Entity\IAssetDependency;
-use LunaPress\Wp\AssetsContracts\Function\WpEnqueueScriptModule\IWpEnqueueScriptModuleDep;
-
+use LunaPress\Wp\AssetsContracts\Entity\IWpEnqueueScriptModuleDep;
 
 
 interface IViteAssetsLoader
