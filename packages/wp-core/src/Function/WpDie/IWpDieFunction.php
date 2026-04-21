@@ -1,14 +1,15 @@
 <?php
+
 declare(strict_types=1);
 
 namespace LunaPress\Wp\CoreContracts\Function\WpDie;
 
-use LunaPress\Wp\CoreContracts\Function\WpDie\IWpDieArgs;
-use LunaPress\Wp\CoreContracts\Entity\WpError\IWpError;
 use LunaPress\FoundationContracts\Support\IExecutableFunction;
 use LunaPress\FoundationContracts\Support\WpFunction\WpArray;
+use LunaPress\Wp\CoreContracts\Entity\WpError\IWpError;
+use LunaPress\Wp\CoreContracts\Function\WpDie\IWpDieArgs;
 
-defined('ABSPATH') || exit;
+
 
 interface IWpDieFunction extends IExecutableFunction
 {

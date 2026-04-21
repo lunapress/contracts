@@ -1,9 +1,8 @@
 <?php
+
 declare(strict_types=1);
 
 namespace LunaPress\Wp\I18nContracts\Entity;
-
-defined('ABSPATH') || exit;
 
 interface INoopedPlural
 {

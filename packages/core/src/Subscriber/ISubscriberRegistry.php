@@ -1,11 +1,10 @@
 <?php
+
 declare(strict_types=1);
 
 namespace LunaPress\CoreContracts\Subscriber;
 
 use LunaPress\FoundationContracts\Subscriber\ISubscriber;
-
-defined('ABSPATH') || exit;
 
 interface ISubscriberRegistry
 {

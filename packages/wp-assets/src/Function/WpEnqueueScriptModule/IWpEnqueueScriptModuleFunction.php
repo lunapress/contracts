@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace LunaPress\Wp\AssetsContracts\Function\WpEnqueueScriptModule;
@@ -6,7 +7,7 @@ namespace LunaPress\Wp\AssetsContracts\Function\WpEnqueueScriptModule;
 use LunaPress\FoundationContracts\Support\IExecutableFunction;
 use LunaPress\Wp\AssetsContracts\Function\WpEnqueueScriptModule\IWpEnqueueScriptModuleDep;
 
-defined('ABSPATH') || exit;
+
 
 interface IWpEnqueueScriptModuleFunction extends IExecutableFunction
 {
@@ -16,7 +17,6 @@ interface IWpEnqueueScriptModuleFunction extends IExecutableFunction
 
     /**
      * @param IWpEnqueueScriptModuleDep[] $deps
-     * @return self
      */
     public function deps(array $deps): self;
 

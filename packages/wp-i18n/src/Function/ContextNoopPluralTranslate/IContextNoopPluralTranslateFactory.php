@@ -1,11 +1,12 @@
 <?php
+
 declare(strict_types=1);
 
 namespace LunaPress\Wp\I18nContracts\Function\ContextNoopPluralTranslate;
 
 use LunaPress\FoundationContracts\Support\IFactory;
 
-defined('ABSPATH') || exit;
+
 
 interface IContextNoopPluralTranslateFactory extends IFactory
 {

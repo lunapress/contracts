@@ -5,7 +5,7 @@ Contracts and wrappers for WordPress Internationalization API.
 
 ## Supported Functions
 
-- `__()`
+- `__()` (`translate()`)
 - `_x()`
 - `_e()`
 - `_ex()`
@@ -19,7 +19,6 @@ Contracts and wrappers for WordPress Internationalization API.
 - `esc_attr_x()`
 - `_n_noop()`
 - `_nx_noop()`
-- `translate()`
 - `translate_nooped_plural()`
 - `load_textdomain()`
 - `unload_textdomain()`

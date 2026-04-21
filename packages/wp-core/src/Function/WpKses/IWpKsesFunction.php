@@ -1,12 +1,12 @@
 <?php
+
 declare(strict_types=1);
 
 namespace LunaPress\Wp\CoreContracts\Function\WpKses;
 
 use LunaPress\FoundationContracts\Support\IExecutableFunction;
-use LunaPress\FoundationContracts\Support\WpFunction\WpArray;
 
-defined('ABSPATH') || exit;
+
 
 interface IWpKsesFunction extends IExecutableFunction
 {

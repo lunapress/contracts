@@ -1,13 +1,13 @@
 <?php
+
 declare(strict_types=1);
 
 namespace LunaPress\Wp\AssetsContracts\Function\WpEnqueueStyle;
 
 use LunaPress\FoundationContracts\Support\IExecutableFunction;
 use LunaPress\Wp\AssetsContracts\Entity\IAssetDependency;
-use LunaPress\FoundationContracts\Support\WpFunction\WpArray;
 
-defined('ABSPATH') || exit;
+
 
 interface IWpEnqueueStyleFunction extends IExecutableFunction
 {
@@ -17,7 +17,6 @@ interface IWpEnqueueStyleFunction extends IExecutableFunction
 
     /**
      * @param IAssetDependency[] $deps
-     * @return self
      */
     public function deps(array $deps): self;
 

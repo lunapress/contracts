@@ -1,11 +1,12 @@
 <?php
+
 declare(strict_types=1);
 
 namespace LunaPress\FoundationContracts\Container;
 
 use Psr\Container\ContainerInterface;
 
-defined('ABSPATH') || exit;
+
 
 interface IContainerBuilder
 {

@@ -1,16 +1,14 @@
 <?php
+
 declare(strict_types=1);
 
 namespace LunaPress\Wp\CoreContracts\Entity\WpError;
-
-defined('ABSPATH') || exit;
 
 interface IWpError
 {
     public function getErrorCode(): string;
 
     /**
-     * @param string $code
      * @return string[]
      */
     public function getErrorMessages(string $code = ''): array;

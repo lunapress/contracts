@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace LunaPress\Wp\I18nContracts\Function\LoadChildThemeTextDomain;
@@ -6,7 +7,7 @@ namespace LunaPress\Wp\I18nContracts\Function\LoadChildThemeTextDomain;
 use LunaPress\FoundationContracts\Support\IExecutableFunction;
 use LunaPress\Wp\I18nContracts\Capability\IHasDomain;
 
-defined('ABSPATH') || exit;
+
 
 interface ILoadChildThemeTextDomainFunction extends IExecutableFunction, IHasDomain
 {

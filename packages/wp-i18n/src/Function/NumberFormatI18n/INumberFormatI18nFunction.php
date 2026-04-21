@@ -1,11 +1,12 @@
 <?php
+
 declare(strict_types=1);
 
 namespace LunaPress\Wp\I18nContracts\Function\NumberFormatI18n;
 
 use LunaPress\FoundationContracts\Support\IExecutableFunction;
 
-defined('ABSPATH') || exit;
+
 
 interface INumberFormatI18nFunction extends IExecutableFunction
 {

@@ -1,14 +1,15 @@
 <?php
+
 declare(strict_types=1);
 
 namespace LunaPress\Wp\AssetsContracts\Function\WpRegisterScript;
 
 use LunaPress\FoundationContracts\Support\IExecutableFunction;
-use LunaPress\Wp\AssetsContracts\Function\WpRegisterScript\IWpRegisterScriptArgs;
-use LunaPress\Wp\AssetsContracts\Entity\IAssetDependency;
 use LunaPress\FoundationContracts\Support\WpFunction\WpArray;
+use LunaPress\Wp\AssetsContracts\Entity\IAssetDependency;
+use LunaPress\Wp\AssetsContracts\Function\WpRegisterScript\IWpRegisterScriptArgs;
 
-defined('ABSPATH') || exit;
+
 
 interface IWpRegisterScriptFunction extends IExecutableFunction
 {
@@ -17,7 +18,6 @@ interface IWpRegisterScriptFunction extends IExecutableFunction
 
     /**
      * @param IAssetDependency[] $deps
-     * @return self
      */
     public function deps(array $deps): self;
     public function version(string|bool|null $version): self;

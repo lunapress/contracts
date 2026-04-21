@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace LunaPress\CoreContracts\Plugin;
@@ -10,7 +11,7 @@ use LunaPress\FoundationContracts\Support\IActivatable;
 use LunaPress\FoundationContracts\Support\IDeactivatable;
 use LunaPress\FoundationContracts\Support\IHasDi;
 
-defined('ABSPATH') || exit;
+
 
 interface IPlugin extends IActivatable, IDeactivatable, IHasDi, IHasModules, IHasPackages
 {

@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace LunaPress\Wp\I18nContracts\Function\TranslateNoopedPlural;
@@ -6,7 +7,7 @@ namespace LunaPress\Wp\I18nContracts\Function\TranslateNoopedPlural;
 use LunaPress\FoundationContracts\Support\IFactory;
 use LunaPress\Wp\I18nContracts\Entity\INoopedPlural;
 
-defined('ABSPATH') || exit;
+
 
 interface ITranslateNoopedPluralFactory extends IFactory
 {
