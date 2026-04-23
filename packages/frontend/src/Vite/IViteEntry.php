@@ -12,4 +12,5 @@ interface IViteEntry extends IViteEntryPoint
     /** @return string[] */
     public function getCss(): array;
     public function getSrc(): ?string;
+    public function isCss(): bool;
 }
