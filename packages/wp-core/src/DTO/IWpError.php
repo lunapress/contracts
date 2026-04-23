@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace LunaPress\Wp\CoreContracts\Entity;
+namespace LunaPress\Wp\CoreContracts\DTO;
 
 interface IWpError
 {
