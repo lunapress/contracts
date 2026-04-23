@@ -13,9 +13,4 @@ interface IWpCaster
      * @return array<mixed>
      */
     public function list(array $list): array;
-
-    /**
-     * Returns the default value if WpUnset is passed, otherwise casts the value.
-     */
-    public function withDefault(mixed $value, mixed $default): mixed;
 }
