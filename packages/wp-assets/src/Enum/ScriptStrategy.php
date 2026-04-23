@@ -6,6 +6,6 @@ namespace LunaPress\Wp\AssetsContracts\Enum;
 
 enum ScriptStrategy: string
 {
-    case DEFER = 'defer';
-    case ASYNC = 'async';
+    case Defer = 'defer';
+    case Async = 'async';
 }

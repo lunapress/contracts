@@ -6,6 +6,6 @@ namespace LunaPress\Wp\AssetsContracts\Enum;
 
 enum ScriptModuleImport: string
 {
-    case DYNAMIC = 'dynamic';
-    case STATIC  = 'static';
+    case Dynamic = 'dynamic';
+    case Static  = 'static';
 }

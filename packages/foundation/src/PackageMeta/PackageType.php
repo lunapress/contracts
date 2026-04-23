@@ -6,5 +6,5 @@ namespace LunaPress\FoundationContracts\PackageMeta;
 
 enum PackageType: string
 {
-    case SERVICE = 'lunapress-service-package';
+    case Service = 'lunapress-service-package';
 }

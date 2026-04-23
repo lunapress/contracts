@@ -6,8 +6,8 @@ namespace LunaPress\Wp\AssetsContracts\Enum;
 
 enum StyleMedia: string
 {
-    case ALL = 'all';
-    case PRINT = 'print';
-    case SCREEN = 'screen';
-    case SPEECH = 'speech';
+    case All = 'all';
+    case Print = 'print';
+    case Screen = 'screen';
+    case Speech = 'speech';
 }
