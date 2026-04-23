@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace LunaPress\FoundationContracts\Support;
+namespace LunaPress\FoundationContracts\Support\WpFunction;
 
 interface IWpArrayable
 {

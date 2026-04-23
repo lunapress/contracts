@@ -5,10 +5,11 @@ declare(strict_types=1);
 namespace LunaPress\Wp\AssetsContracts\DTO;
 
 use BackedEnum;
+use LunaPress\FoundationContracts\Support\WpFunction\IWpResolvable;
 use LunaPress\FoundationContracts\Support\WpFunction\WpUnset;
 use LunaPress\Wp\AssetsContracts\Enum\ScriptModuleImport;
 
-final readonly class ScriptModuleDependency
+final readonly class ScriptModuleDependency implements IWpResolvable
 {
     public function __construct(
         public string|BackedEnum $id,

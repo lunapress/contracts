@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace LunaPress\Wp\AssetsContracts\DTO;
 
-use LunaPress\FoundationContracts\Support\IWpArrayable;
+use LunaPress\FoundationContracts\Support\WpFunction\IWpArrayable;
 use LunaPress\FoundationContracts\Support\WpFunction\WpUnset;
 use LunaPress\Wp\AssetsContracts\Enum\FetchPriority;
 
