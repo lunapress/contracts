@@ -1,0 +1,12 @@
+<?php
+
+declare(strict_types=1);
+
+namespace LunaPress\CoreContracts\Hook;
+
+interface ActionManager
+{
+    public function add(string $name, callable $callback, int $priority = 10, int $args = 1): void;
+
+    public function do(string $name, mixed ...$args): void;
+}
